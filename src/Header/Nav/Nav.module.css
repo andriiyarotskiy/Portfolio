@@ -4,3 +4,6 @@
     display: flex;
     justify-content: space-between;
 }
+.nav a {
+    color: #fff3b0;
+}

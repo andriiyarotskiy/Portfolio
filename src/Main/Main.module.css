@@ -1,15 +1,15 @@
 .mainBlock {
     height: 100vh;
-    background-color: darkkhaki;
+    background-color: #9E2A2B;
 }
 
 .text {
     width: 300px;
-    background-color: white;
+    background-color: #FFF3B0;
 }
 
 .photo {
     width: 300px;
     height: 400px;
-    background-color: white;
+    background-color: #FFF3B0;
 }
