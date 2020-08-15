@@ -10,7 +10,7 @@ function Skills() {
                 <h2 className={style.title}>Skills</h2>
                 <div className={style.skills}>
                     <Skill title={'js'}
-                           description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, nostrum?'}/>
+                           description={'Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, nostrum?'}/>
                     <Skill title={'html'}
                            description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, nostrum?'}/>
                     <Skill title={'react'}

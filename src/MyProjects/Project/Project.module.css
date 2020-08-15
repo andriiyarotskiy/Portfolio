@@ -1,0 +1,45 @@
+.project {
+    width: 300px;
+    background-color: #fff3b0;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+}
+
+.watchImgBack {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.watchBtn {
+    width: 150px;
+    height: 50px;
+    background-color: #335C67;
+    color: #fff3b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.projectText {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.project h4 {
+    background-color: #335C67;
+    margin-top: 0;
+    color: #fff3b0;
+}
+
+.description {
+    width: 100%;
+    background-color: #335C67;
+    color: #fff3b0;
+    margin-bottom: 30px;
+}

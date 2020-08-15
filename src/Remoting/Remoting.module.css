@@ -1,0 +1,26 @@
+.remoteContainer {
+    background-color: #335C67;
+}
+.remote {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.remoteTitle {
+    margin-bottom: 100px;
+    margin-top: 0;
+}
+
+h2 {
+    background-color: #fff3b0;
+}
+
+.remoteBtn {
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    background-color: #9E2A2B;
+    padding: 15px 80px;
+}
