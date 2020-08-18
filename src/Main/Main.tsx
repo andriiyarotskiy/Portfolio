@@ -5,14 +5,13 @@ import styleContainer from './../Common/styles/Container.module.css'
 function Main() {
     return (
         <div className={style.mainBlock}>
-            <div className={styleContainer.container}>
+            <div className={`${styleContainer.container} ${style.headerWrapBlocks}`}>
                 <div className={style.text}>
                     <span>Hi There</span>
                     <h1>I am Yarotskiy Andriy</h1>
                     <p>Frontend Developer</p>
                 </div>
                 <div className={style.photo}>
-
                 </div>
             </div>
         </div>

@@ -1,5 +1,5 @@
 .project {
-    width: 300px;
+    flex-basis: 300px;
     background-color: #fff3b0;
     display: flex;
     flex-direction: column;

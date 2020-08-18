@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
+import './normalize.css'
 import Header from "./Header/Header";
 import Main from "./Main/Main";
 import Skills from "./Skills/Skills";
 import MyProjects from "./MyProjects/MyProjects";
 import Remoting from "./Remoting/Remoting";
 import Contact from "./Contact/Contact";
+import Footer from "./Footer/Footer";
 
 function App() {
     return (
@@ -14,8 +16,9 @@ function App() {
             <Main/>
             <Skills/>
             <MyProjects/>
-            <Remoting />
-            <Contact />
+            <Remoting/>
+            <Contact/>
+            <Footer/>
         </div>
     );
 }

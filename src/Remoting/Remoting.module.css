@@ -1,5 +1,6 @@
 .remoteContainer {
     background-color: #335C67;
+    padding: 100px 0;
 }
 .remote {
     flex-direction: column;

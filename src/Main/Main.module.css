@@ -13,3 +13,9 @@
     height: 400px;
     background-color: #FFF3B0;
 }
+
+@media (max-width: 768px) {
+    .headerWrapBlocks {
+        justify-content: center;
+    }
+}
