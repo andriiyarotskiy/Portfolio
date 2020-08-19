@@ -23,6 +23,7 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    margin: 100px 0;
 }
 
 
@@ -42,4 +43,14 @@
     background-color: #335C67;
     color: #fff3b0;
     margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .project {
+        margin-bottom: 30px;
+    }
+    .project:last-child {
+        margin-bottom: 0;
+    }
 }

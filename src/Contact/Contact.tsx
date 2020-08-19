@@ -20,7 +20,9 @@ const Contact = () => {
                                 <input type="text" className={style.formControl} placeholder="E-mail"/>
                             </div>
                             <div className={style.formGroup}>
-                                <textarea className={style.formControl}> </textarea>
+                                <textarea className={style.formControl}>
+
+                                </textarea>
                             </div>
                         </div>
                     </form>

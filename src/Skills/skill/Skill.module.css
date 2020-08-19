@@ -6,12 +6,19 @@
     align-items: center;
     text-align: center;
 }
+
 .icon {
     width: 60px;
     height: 60px;
     background-color: #9E2A2B;
 }
 
-.skill h3 {
-    margin-top: 0;
+@media (max-width: 992px) {
+    .skill {
+        margin-bottom: 30px;
+    }
+
+    .skill:last-child {
+        margin: 0;
+    }
 }

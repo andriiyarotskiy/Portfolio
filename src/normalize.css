@@ -85,7 +85,6 @@ a {
 abbr[title] {
     border-bottom: none; /* 1 */
     text-decoration: underline; /* 2 */
-    text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -346,4 +345,9 @@ template {
 
 [hidden] {
     display: none;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }

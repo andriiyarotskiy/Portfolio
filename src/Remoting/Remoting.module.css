@@ -1,6 +1,6 @@
 .remoteContainer {
     background-color: #335C67;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .remote {
     flex-direction: column;
@@ -8,8 +8,8 @@
 }
 
 .remoteTitle {
-    margin-bottom: 100px;
-    margin-top: 0;
+   margin: 50px auto;
+    text-align: center;
 }
 
 h2 {

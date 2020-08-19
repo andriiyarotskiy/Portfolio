@@ -1,6 +1,6 @@
 .footerContainer {
     background-color: #335C67;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .footer {
@@ -9,12 +9,7 @@
 }
 
 .footerTitle {
-    margin-bottom: 50px;
-}
-
-.footerTitle h2 {
-    background-color: #fff3b0;
-    margin-top: 0;
+    margin: 50px auto;
 }
 
 .iconContainer {
@@ -30,12 +25,12 @@
     height: 50px;
     background-color: #540b0e;
 }
-
-.text {
-
-}
-
 h5 {
     background-color: #fff3b0;
-    margin: 0;
+}
+
+@media (max-width: 576px) {
+    .iconContainer {
+        width: 100%;
+    }
 }

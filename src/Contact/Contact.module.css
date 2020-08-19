@@ -1,17 +1,6 @@
-form {
-    box-sizing: border-box;
-}
-
-input, textarea{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-
 .contactContainer {
     background-color: #9E2A2B;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .contact {
@@ -20,17 +9,13 @@ input, textarea{
 }
 
 .contactTitle {
-    margin-bottom: 100px;
-    margin-top: 0;
+    margin: 50px auto;
+    background-color: #fff3b0;
 }
 
 .contactForm {
     padding-bottom: 100px;
     width: 90%;
-}
-
-h2 {
-    background-color: #fff3b0;
 }
 
 .wrapperForm {
@@ -79,6 +64,12 @@ textarea.formControl {
 
 @media (max-width: 768px) {
     .wrapperForm {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .contactForm {
         width: 100%;
     }
 }
