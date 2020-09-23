@@ -16,7 +16,7 @@
     left: 0;
     background: #000;
     opacity: 0;
-    border-radius: 5px;
+    border-radius: 10px;
     -webkit-transition: opacity 0.35s ease-out;
     transition: opacity 0.35s ease-out;
 }
@@ -29,6 +29,7 @@
     max-width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,7 +87,7 @@
         margin-bottom: 30px;
     }
     .watchBtn {
-        margin: 175px 0;
+        padding: 40px 0;
     }
 
     .project:last-child {
