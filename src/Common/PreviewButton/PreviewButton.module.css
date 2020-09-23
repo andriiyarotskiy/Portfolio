@@ -1,0 +1,21 @@
+.previewBtn {
+    display: block;
+    width: 180px;
+    height: 44px;
+    color: #fff;
+    text-align: center;
+    background: rgba(38, 172, 202, .6);
+
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    line-height: 44px;
+
+    border-radius: 5px;
+    margin: 0 auto 0 -10px;
+    -webkit-transition: all 0.35s ease-out;
+    transition: all 0.35s ease-out;
+    text-transform: uppercase;
+}
+.previewBtn:hover {
+    background: rgba(38, 172, 202, .9);
+}

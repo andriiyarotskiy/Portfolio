@@ -1,23 +1,87 @@
 .mainBlock {
     height: 100vh;
-    background-color: #9E2A2B;
+    background-image: url("../assets/image/airPlaneBGimage.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.mainBlock:before {
+    content: '';
+    position: absolute;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6;
+}
+
+.mainBlockContent {
+    position: relative;
+    height: 100%;
 }
 
 .text {
-    width: 300px;
-    background-color: #FFF3B0;
+    width: 350px;
+}
+
+h1 {
+    text-align: left;
+    margin: 15px 0;
+}
+
+.text span {
+    display: block;
+    text-align: left;
+    color: #25acca;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+}
+
+.text h1, .text h1 span {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    line-height: initial;
+}
+
+.text h1 {
+    font-size: 30px;
+}
+
+.text h1 span {
+    font-size: 50px;
+}
+
+.textInTitle {
+    color: #fff;
+}
+
+.text h2 {
+    color: #25acca;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
 }
 
 .photo {
-    width: 300px;
+    width: 350px;
     height: 400px;
-    background-color: #FFF3B0;
+    background-color: grey;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 892px) {
     .headerWrapBlocks {
-        justify-content: center;
+        display: flex;
+        justify-content: center !important;
     }
+
     .text {
         text-align: center;
     }

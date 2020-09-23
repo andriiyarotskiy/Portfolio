@@ -1,12 +1,23 @@
 .nav {
-    border: 1px solid red;
-    width: 300px;
+    width: 350px;
     display: flex;
     justify-content: space-between;
 }
 
 .nav a {
-    color: #fff3b0;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    transition: all .4s ease-out;
+}
+
+.nav a:hover {
+    color: rgb(37, 172, 202)
 }
 
 @media (max-width: 768px) {

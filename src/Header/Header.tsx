@@ -8,7 +8,7 @@ function Header() {
         <div className={style.headerContainer}>
             <div className={styles.container}>
                 <div className={style.header}>
-                    <Nav/>
+                    <Nav />
                 </div>
             </div>
         </div>

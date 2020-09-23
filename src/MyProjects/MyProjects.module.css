@@ -1,5 +1,5 @@
 .projectsBlock {
-    background-color: #9E2A2B;
+    /*background-color: #9E2A2B;*/
     padding: 50px 0;
     min-height: 100vh;
 }
@@ -10,15 +10,13 @@
 }
 
 .projects {
-    border: 1px solid;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .title {
-    background-color: #F0C977;
     margin: 50px auto;
 }
 

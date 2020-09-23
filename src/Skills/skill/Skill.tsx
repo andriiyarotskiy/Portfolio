@@ -4,13 +4,12 @@ import style from './Skill.module.css'
 function Skill(props: any) {
     return (
         <div className={style.skill}>
-            <div className={style.icon}>
+            <div className={style.icon} style={props.style}>
 
             </div>
-            <h3>{props.title}</h3>
-            <span className={style.description}>
-                {props.description}
-            </span>
+            <h2>{props.title}</h2>
+            <p className={style.description}>
+            </p>
         </div>
     );
 }

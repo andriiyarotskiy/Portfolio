@@ -1,17 +1,18 @@
 import React from 'react';
 import style from './Project.module.css'
+import {PreviewButton} from "../../Common/PreviewButton/PreviewButton";
 
 function Project(props: any) {
     return (
         <div className={style.project}>
-            <div className={style.watchImgBack}>
+            <div className={style.hoverEffect}></div>
+            <div className={style.projectImg} style={props.style}>
                 <div className={style.watchBtn}>
-                    <span>Watching</span>
+                    <PreviewButton href={''}/>
                 </div>
             </div>
             <div className={style.projectText}>
-                <h4 className={style.title}>{props.title}</h4>
-                <div className={style.description}>{props.description}</div>
+                <h2 className={style.title}>{props.title}</h2>
             </div>
         </div>
     );
