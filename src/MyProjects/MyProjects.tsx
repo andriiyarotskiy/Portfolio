@@ -1,30 +1,11 @@
 import React from 'react';
-import style from './MyProjects.module.css';
-import styleContainer from '../Common/styles/Container.module.css';
+import style from './MyProjects.module.scss';
+import styleContainer from '../Common/styles/Container.module.scss';
 import Project from './Project/Project';
 import todoImage from '../assets/image/todolist_img.svg'
 import snImage from '../assets/image/sn_img.png'
 import countImage from '../assets/image/count_img.jpg'
 
-
-const projectsElements = [
-    {
-        image: {
-            backgroundImage: 'url(' + snImage + ')',
-        },
-        title: 'social network',
-    }, {
-        image: {
-            backgroundImage: 'url(' + todoImage + ')',
-        },
-        title: 'todolist',
-    }, {
-        image: {
-            backgroundImage: 'url(' + countImage + ')',
-        },
-        title: 'count',
-    },
-]
 
 function MyProjects() {
     let projectElement = projectsElements.map((el, i) => {
@@ -43,3 +24,25 @@ function MyProjects() {
 }
 
 export default MyProjects;
+
+
+const projectsElements = [
+    {
+        link: "https://andriiyarotskiy.github.io/SN-TypeScript/#/profile",
+        image: {
+            backgroundImage: 'url(' + snImage + ')',
+        },
+        title: 'social network',
+    }, {
+        link: "https://andriiyarotskiy.github.io/SN-TypeScript/#/profile",
+        image: {
+            backgroundImage: 'url(' + todoImage + ')',
+        },
+        title: 'todolist',
+    }, {
+        image: {
+            backgroundImage: 'url(' + countImage + ')',
+        },
+        title: 'count',
+    },
+]

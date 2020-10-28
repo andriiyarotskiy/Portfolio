@@ -1,6 +1,7 @@
 import React from 'react'
-import style from './Contact.module.css'
-import styleContainer from "../Common/styles/Container.module.css";
+import style from './Contact.module.scss'
+import styleContainer from "../Common/styles/Container.module.scss";
+import {PreviewButton} from "../Common/PreviewButton/PreviewButton";
 
 
 const Contact = () => {
@@ -20,16 +21,16 @@ const Contact = () => {
                                 <input type="text" className={style.formControl} placeholder="E-mail"/>
                             </div>
                             <div className={style.formGroup}>
-                                <textarea className={style.formControl}>
+                                <textarea className={style.formControl} placeholder="Description">
 
                                 </textarea>
+                            </div>
+                            <div className={style.contactBtn}>
+                                <PreviewButton href={''} name={'Send Message'}/>
                             </div>
                         </div>
                     </form>
                 </div>
-                <button type="submit" className={style.contactBtn}>
-                    <span>Send Message</span>
-                </button>
             </div>
         </div>
     )

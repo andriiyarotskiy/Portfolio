@@ -1,0 +1,49 @@
+.footerContainer {
+  height: 50vh;
+  padding: 50px 0;
+  background-color: black;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.footerTitle {
+  text-align: center;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: space-between;
+  min-width: 75%;
+
+  .item {
+    display: block;
+  }
+
+  .item img {
+    width: 55px;
+    height: 55px;
+    vertical-align: middle; // вертикальное выравнивание
+  }
+}
+
+
+h5 {
+  background-color: grey;
+}
+
+@media (max-width: 576px) {
+  .iconContainer {
+    width: 100%;
+
+    .item {
+      min-width: 45px;
+      min-height: 45px;
+    }
+  }
+}

@@ -1,0 +1,113 @@
+.mainBlock {
+  height: 100vh;
+  background-image: url("../assets/image/airPlaneBGimage.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6;
+  }
+
+  .main {
+    display: flex;
+    height: calc(100vh - 80px);
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.mainBlockWrapper {
+  position: relative;
+  min-height: 100%;
+}
+
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.text {
+  max-width: 350px;
+}
+
+h1 {
+  text-align: left;
+  margin: 15px 0;
+}
+
+.text span {
+  display: block;
+  text-align: left;
+  color: #25acca;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Oswald', sans-serif;
+}
+
+.text h1, .text h1 span {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  line-height: initial;
+}
+
+.text h1 {
+  font-size: 30px;
+}
+
+.text h1 span {
+  font-size: 50px;
+}
+
+.textInTitle {
+  color: #fff;
+}
+
+.text h2 {
+  color: #25acca;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  text-align: left;
+}
+
+.photo {
+  display: block;
+  height: 346px;
+  text-align: right; // avatar to right
+  .responsiveImg {
+    max-width: 100%;
+    width: 300px;
+    height: 100%;
+  }
+}
+
+@media (max-width: 830px) {
+  .mainContent {
+    flex-direction: column;
+  }
+  .text {
+    max-width: 300px;
+    text-align: center;
+  }
+  .text h1 span {
+    font-size: 40px;
+  }
+  .text h2 {
+    font-size: 24px;
+  }
+}

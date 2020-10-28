@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Project.module.css'
+import style from './Project.module.scss'
 import {PreviewButton} from "../../Common/PreviewButton/PreviewButton";
 
 function Project(props: any) {
@@ -8,7 +8,7 @@ function Project(props: any) {
             <div className={style.hoverEffect}></div>
             <div className={style.projectImg} style={props.style}>
                 <div className={style.watchBtn}>
-                    <PreviewButton href={''}/>
+                    <PreviewButton href={''} name={'live preview'}/>
                 </div>
             </div>
             <div className={style.projectText}>
