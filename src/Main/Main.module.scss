@@ -99,6 +99,7 @@ h1 {
 @media (max-width: 830px) {
   .mainContent {
     flex-direction: column;
+    justify-content: space-around;
   }
   .text {
     max-width: 300px;

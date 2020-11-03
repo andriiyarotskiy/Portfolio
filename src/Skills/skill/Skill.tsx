@@ -6,7 +6,7 @@ function Skill(props: any) {
         <div className={style.skill}>
             <div className={style.icon} style={props.style}>
             </div>
-            <h2>{props.title}</h2>
+            <h3>{props.title}</h3>
             <p className={style.description}>
             </p>
         </div>

@@ -7,16 +7,22 @@
   background: #000;
 }
 
-.skills {
+.particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.skillsContainer .title {
+  margin: 50px auto;
+}
 
+.skills {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   width: 100%;
-
-  .title {
-    margin: 50px auto;
-  }
 }
 
 @media (max-width: 576px) {
