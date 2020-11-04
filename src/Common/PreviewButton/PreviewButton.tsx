@@ -2,14 +2,14 @@ import React from "react";
 import style from "./PreviewButton.module.scss"
 
 type PreviewButtonType = {
-    href: string
+    link: string
     name: string
 }
 
-export const PreviewButton: React.FC<PreviewButtonType> = ({href, name,...props}) => {
+export const PreviewButton: React.FC<PreviewButtonType> = ({link, name, ...props}) => {
     return (
         <>
-            <a className={style.previewBtn} href={href} {...props}>{name}</a>
+            <a className={style.previewBtn} href={link} {...props}>{name}</a>
         </>
     )
 }

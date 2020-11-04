@@ -8,7 +8,7 @@ function Project(props: any) {
             <div className={style.hoverEffect}></div>
             <div className={style.projectImg} style={props.style}>
                 <div className={style.watchBtn}>
-                    <PreviewButton href={''} name={'live preview'}/>
+                    <PreviewButton link={props.link} name={'live preview'}/>
                 </div>
             </div>
             <div className={style.projectText}>

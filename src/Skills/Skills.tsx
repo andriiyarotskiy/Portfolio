@@ -12,6 +12,10 @@ import axiosIcon from "../assets/image/skills-icon/axios_icon.svg";
 import sassIcon from "../assets/image/skills-icon/sass_icon.svg";
 import htmlIcon from "../assets/image/skills-icon/html5_icon.svg";
 
+import Particles from 'react-particles-js';
+
+const Fade = require('react-reveal/Fade')
+
 
 const Skills = () => {
 
@@ -20,12 +24,17 @@ const Skills = () => {
     })
 
     return (
-        <div className={style.skillsBlock}>
+        <div className={style.skillsBlock} id="Skills">
+
+
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-                <h2 className={style.title}>Skills</h2>
-                <div className={style.skills}>
-                    {skilElement}
-                </div>
+
+                <Fade big>
+                    <h2 className={style.title}>Skills</h2>
+                    <div className={style.skills}>
+                        {skilElement}
+                    </div>
+                </Fade>
             </div>
         </div>
     );
@@ -47,9 +56,9 @@ const skillsElements = [
         },
     },
     {
-        title: 'react',
+        title: 'html',
         icon: {
-            backgroundImage: 'url(' + reactIcon + ')',
+            backgroundImage: 'url(' + htmlIcon + ')',
         },
     },
     {
@@ -79,10 +88,91 @@ const skillsElements = [
         icon: {
             backgroundImage: 'url(' + sassIcon + ')',
         },
-    }, {
-        title: 'html',
+    },
+    {
+        title: 'react',
         icon: {
-            backgroundImage: 'url(' + htmlIcon + ')',
+            backgroundImage: 'url(' + reactIcon + ')',
         },
     },
 ]
+// let params: { [key: string]: any } = {
+//     "particles": {
+//         "number": {
+//             "value": 100,
+//             "density": {
+//                 "enable": false
+//             }
+//         },
+//         "size": {
+//             "value": 3,
+//             "random": true,
+//             "anim": {
+//                 "speed": 4,
+//                 "size_min": 0.3
+//             }
+//         },
+//         "color": {
+//             "value": ["#eb4d4b", "#e056fd", "#f9ca24", "#686de0", "#badc58", "#7ed6df"],
+//         },
+//         "opacity": {
+//             "value": 0,
+//             "random": false,
+//             "anim": {
+//                 "enable": 0.5,
+//                 "speed": 1,
+//                 "opacity_min": 0.8,
+//                 "sync": false,
+//             },
+//         },
+//         "line_linked": {
+//             "enable": false
+//         },
+//         "move": {
+//             "enable": true,
+//             "speed": 20,
+//             "direction": "none",
+//             "random": false,
+//             "straight": false,
+//             "out_mode": "out",
+//             "attract": {
+//                 "enable": false,
+//                 "rotateX": 600,
+//                 "rotateY": 1200,
+//             }
+//         }
+//     },
+//     "interactivity": {
+//         "detect_on": "canvas",
+//         "events": {
+//             "onhover": {
+//                 "enable": true,
+//                 "mode": "bubble"
+//             },
+//             "onclick": {
+//                 "enable": true,
+//                 "mode": "push"
+//             },
+//             "resize": true
+//         },
+//         "modes": {
+//             "grab": {
+//                 "distance": 400,
+//                 "line_linked": {
+//                     "opacity": 1
+//                 },
+//             },
+//             "bubble": {
+//                 "distance": 200,
+//                 "duration": 2,
+//                 "size": 40,
+//                 "opacity": 8,
+//                 "speed": 3
+//             },
+//             "repulse": {
+//                 "distance": 400,
+//                 "duration": 4
+//             }
+//         }
+//     }
+// }

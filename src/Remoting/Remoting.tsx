@@ -13,7 +13,7 @@ const Remoting = () => {
                         <h2>I am available for Freelancer</h2>
                     </div>
                     <div className={style.remoteBtn}>
-                        <PreviewButton href={''} name={'Watching'}/>
+                        <PreviewButton link={''} name={'Watching'}/>
                     </div>
 
                 </div>

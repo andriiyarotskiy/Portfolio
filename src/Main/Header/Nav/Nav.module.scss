@@ -2,7 +2,6 @@
   width: 350px;
   display: flex;
   justify-content: space-between;
-
   a {
     color: #fff;
     font-size: 15px;
@@ -14,10 +13,15 @@
     text-decoration-color: initial;
     transition: all .4s ease-out;
 
+    cursor: pointer;
+
     &:hover {
       color: rgb(37, 172, 202)
     }
   }
+}
+.nav > .active {
+  color: rgb(37, 172, 202)
 }
 
 @media (max-width: 830px) {

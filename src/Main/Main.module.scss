@@ -4,7 +4,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
 
   &:before {
     content: '';
@@ -16,7 +15,6 @@
     right: 0;
     opacity: 0.6;
   }
-
   .main {
     display: flex;
     height: calc(100vh - 80px);
@@ -24,7 +22,6 @@
     justify-content: space-between;
   }
 }
-
 .mainBlockWrapper {
   position: relative;
   min-height: 100%;
@@ -76,13 +73,17 @@ h1 {
   color: #fff;
 }
 
-.text h2 {
+.text .speciality {
+  vertical-align: bottom;
   color: #25acca;
   font-size: 25px;
   font-weight: 600;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   text-align: left;
+  span {
+  font-size: 25px;
+  }
 }
 
 .photo {
@@ -108,7 +109,7 @@ h1 {
   .text h1 span {
     font-size: 40px;
   }
-  .text h2 {
-    font-size: 24px;
+  .text .speciality {
+    font-size: 22px;
   }
 }
