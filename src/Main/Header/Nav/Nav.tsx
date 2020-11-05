@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Nav.module.scss';
 
-const {Link, animateScroll} = require('react-scroll')
+const {Link} = require('react-scroll')
 
 function Nav() {
     return (

@@ -5,15 +5,15 @@ import Header from "./Header/Header";
 import avatar from "../assets/image/Andriy.jpg"
 import ReactTypingEffect from "react-typing-effect";
 import Tilt from 'react-parallax-tilt';
-import Particles from "react-particles-js";
-
 const Fade = require('react-reveal/Fade')
+
+
+
 
 function Main() {
     return (
         <Fade big>
             <div className={style.mainBlock}>
-
                 <div className={style.mainBlockWrapper}>
                     <Header/>
                     <div className={`${styleContainer.container} ${style.main}`}>

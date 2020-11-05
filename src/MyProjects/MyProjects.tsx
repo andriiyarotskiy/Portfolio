@@ -36,7 +36,7 @@ export default MyProjects;
 
 const projectsElements = [
     {
-        link: "https://andriiyarotskiy.github.io/SN-TypeScript/#/profile",
+        link: "https://andriiyarotskiy.github.io/SN-TypeScript/",
         image: {
             backgroundImage: 'url(' + snImage + ')',
         },

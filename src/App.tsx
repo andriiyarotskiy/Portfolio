@@ -9,17 +9,15 @@ import Contact from "./Contact/Contact";
 import Footer from './Footer/Footer';
 
 
-
 function App() {
     return (
         <div className="App">
-
-            <Main />
-            <Skills />
-            <MyProjects />
-            <Remoting />
-            <Contact />
-            <Footer />
+            <Main/>
+            <Skills/>
+            <MyProjects/>
+            <Remoting/>
+            <Contact/>
+            <Footer/>
         </div>
     );
 }
