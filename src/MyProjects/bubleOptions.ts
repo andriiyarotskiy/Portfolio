@@ -23,7 +23,7 @@ export const paramsBubble: { [key: string]: any } = {
             "anim": {
                 "enable": 0.5,
                 "speed": 1,
-                "opacity_min": 0.8,
+                "opacity_min": 0.1,
                 "sync": false,
             },
         },
@@ -68,7 +68,7 @@ export const paramsBubble: { [key: string]: any } = {
                 "distance": 200,
                 "duration": 2,
                 "size": 40,
-                "opacity": 8,
+                "opacity": 1, // opacity on hover
                 "speed": 3
             },
             "repulse": {

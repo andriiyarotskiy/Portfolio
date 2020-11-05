@@ -29,11 +29,11 @@ function Nav() {
             >Projects</Link>
             <Link
                 activeClass={style.active}
-                to="Contacts"
+                to="Contact"
                 spy={true}
                 smooth={true}
                 duration={500}
-            >Contacts</Link>
+            >Contact</Link>
         </div>
     );
 }

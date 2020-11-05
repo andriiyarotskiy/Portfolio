@@ -7,12 +7,19 @@ import MyProjects from "./MyProjects/MyProjects";
 import Remoting from "./Remoting/Remoting";
 import Contact from "./Contact/Contact";
 import Footer from './Footer/Footer';
+import Header from "./Main/Header/Header";
+import style from "./Main/Main.module.scss";
 
 
 function App() {
     return (
         <div className="App">
-            <Main/>
+            <div className={style.mainWrapper}>
+
+                <Header/>
+                <Main/>
+
+            </div>
             <Skills/>
             <MyProjects/>
             <Remoting/>

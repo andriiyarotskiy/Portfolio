@@ -1,15 +1,35 @@
+@import "../../assets/variables/variables";
+
 .header {
-  //background: indianred;
+  width: 100%;
+  background: none;
+  transition: 0.3s all;
+  position: fixed;
+  z-index: 10;
 }
 
+.headerFixed {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: black;
+  height: $header-height - 20px;
+  opacity: 0.9;
+}
 
 .headerContainer {
-  height: 80px;
+  height: $header-height;
   width: 100%;
+  transition: 0.3s all;
 }
+
+.headContFixed {
+  height: $header-height - 20px;
+}
+
 .navigation {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
 }

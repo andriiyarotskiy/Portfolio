@@ -12,8 +12,6 @@ import axiosIcon from "../assets/image/skills-icon/axios_icon.svg";
 import sassIcon from "../assets/image/skills-icon/sass_icon.svg";
 import htmlIcon from "../assets/image/skills-icon/html5_icon.svg";
 
-import Particles from 'react-particles-js';
-
 const Fade = require('react-reveal/Fade')
 
 

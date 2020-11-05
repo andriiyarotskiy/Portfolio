@@ -9,7 +9,7 @@ import linkedInIcon from "../assets/image/footer-icon/linkedin.svg"
 
 const Footer = () => {
     return (
-        <div className={style.footerContainer} id="Contacts">
+        <div className={style.footerContainer} >
             <div className={`${styleContainer.container} ${style.footer}`}>
                 <div className={style.footerTitle}>
                     <h2>Andrii Yarotskiy</h2>

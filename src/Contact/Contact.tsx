@@ -10,13 +10,13 @@ const Contact = () => {
 
 
     return (
-        <div className={style.contactContainer}>
+        <div className={style.contactContainer} id="Contact">
             <div className={`${styleContainer.container} ${style.contact}`}>
                 <h2 className={style.contactTitle}>Contact</h2>
                 <div className={style.contactForm}>
                     <Pulse>
                         <form action="#">
-                            <div className={style.wrapperForm}>
+                            <div className={style.wrapperForm} >
                                 <div className={style.formGroup}>
                                     <input type="text" className={style.formControl} placeholder="Name"/>
                                 </div>
