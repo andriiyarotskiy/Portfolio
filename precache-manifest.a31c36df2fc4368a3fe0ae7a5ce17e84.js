@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eeec018dbb41547eb5f8e66b30fc4eb3",
+    "revision": "3343d5f8b7d84a8d706f8f86736548c5",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "3e17e46aa60ffc8e2229",
-    "url": "/Portfolio/static/css/main.5a5fbbc7.chunk.css"
+    "revision": "600545fa5781f492248a",
+    "url": "/Portfolio/static/css/main.867ce593.chunk.css"
   },
   {
-    "revision": "28a4c96b17eb4494e95a",
-    "url": "/Portfolio/static/js/2.3bab093c.chunk.js"
+    "revision": "4acf05e4ba4cd7748ab1",
+    "url": "/Portfolio/static/js/2.6e45c407.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Portfolio/static/js/2.3bab093c.chunk.js.LICENSE.txt"
+    "revision": "dbc92cb7f572302351564f268dc3ac50",
+    "url": "/Portfolio/static/js/2.6e45c407.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3e17e46aa60ffc8e2229",
-    "url": "/Portfolio/static/js/main.d491fac8.chunk.js"
+    "revision": "600545fa5781f492248a",
+    "url": "/Portfolio/static/js/main.a4d4e40d.chunk.js"
   },
   {
-    "revision": "c66aa5eafc120060b1dc",
-    "url": "/Portfolio/static/js/runtime-main.efb1fe8d.js"
+    "revision": "b83a37198ba343383876",
+    "url": "/Portfolio/static/js/runtime-main.e440ee5a.js"
   },
   {
     "revision": "431e95fe64363f19dcaa2dc115aae1ae",
@@ -96,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/react_icon.9c62aba8.svg"
   },
   {
-    "revision": "db086be82ed52756d712677d5af7f9fe",
-    "url": "/Portfolio/static/media/redux_icon.db086be8.svg"
+    "revision": "8200807629063c01519ba9b9b7c5b43a",
+    "url": "/Portfolio/static/media/redux_icon.82008076.svg"
   },
   {
     "revision": "6e994fedbd691483d122eb17b3cad283",
@@ -112,8 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/storybook_icon.2f0ebb7f.svg"
   },
   {
-    "revision": "54d3e019f17952a614a42fcf45fbdb20",
-    "url": "/Portfolio/static/media/telegram.54d3e019.svg"
+    "revision": "d76d798a8b3a564c313039417f364e2b",
+    "url": "/Portfolio/static/media/telegram.d76d798a.svg"
   },
   {
     "revision": "2a8153ef719d8cb58b576262b1e181e3",
