@@ -22,7 +22,7 @@ function Header() {
     });
 
     return (
-        <div id="header" className={isSticky ? `${style.header} ${style.headerFixed}` : style.header}>
+        <div className={isSticky ? `${style.header} ${style.headerFixed}` : style.header}>
             <div className={isSticky ? `${style.headerContainer} ${style.headContFixed}` :style.headerContainer}>
                 <div className={styles.container}>
                     <div className={style.navigation}>

@@ -43,8 +43,8 @@
     text-align: left;
     color: $customBlue;
     font-size: 20px;
-    font-weight: 600;
-    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-family: 'Oswald-Regular', sans-serif;
   }
 
   h1 {
@@ -57,7 +57,7 @@
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald-Bold', sans-serif;
     line-height: initial;
   }
 
@@ -69,9 +69,9 @@
     vertical-align: bottom;
     color: $customBlue;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 400;
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald-Regular', sans-serif;
     text-align: left;
 
     span {
@@ -99,14 +99,14 @@
   }
   .text {
     max-width: 300px;
-    text-align: center;
+    width: 100%;
 
     h1 span {
-      font-size: 40px;
+      font-size: 35px;
     }
 
     .speciality {
-      font-size: 22px;
+      font-size: 20px;
     }
   }
 }

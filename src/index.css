@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Oswald-Bold';
+    src: url(./assets/fonts/oswald/static/Oswald-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Oswald-SemiBold';
+    src: url(./assets/fonts/oswald/static/Oswald-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Oswald-Medium';
+    src: url(./assets/fonts/oswald/static/Oswald-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Oswald-Regular';
+    src: url(./assets/fonts/oswald/static/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url(./assets/fonts/raleway/static/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url(./assets/fonts/raleway/static/Raleway-Bold.ttf);
+}
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-style: normal;
+    color: #fff;
+    background: #0e0f10;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h2 {
+    width: 100%;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Raleway-Bold', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+}

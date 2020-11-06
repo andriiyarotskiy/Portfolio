@@ -13,12 +13,10 @@ import style from "./Main/Main.module.scss";
 
 function App() {
     return (
-        <div className="App">
-            <div className={style.mainWrapper}>
-
+        <div className="App" >
+            <div className={style.mainWrapper} id="Home">
                 <Header/>
                 <Main/>
-
             </div>
             <Skills/>
             <MyProjects/>

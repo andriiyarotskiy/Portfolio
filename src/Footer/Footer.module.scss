@@ -1,7 +1,9 @@
+@import "../assets/variables/variables";
+
 .footerContainer {
   height: 50vh;
   padding: 50px 0;
-  background-color: black;
+  background-color: $bgFooter;
 }
 
 .footer {
@@ -14,6 +16,9 @@
 
 .footerTitle {
   text-align: center;
+  h2 {
+    font-family: 'Oswald-Bold', sans-serif;
+  }
 }
 
 .iconContainer {

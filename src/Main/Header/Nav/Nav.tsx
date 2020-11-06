@@ -7,8 +7,7 @@ function Nav() {
     return (
         <div className={style.nav}>
             <Link
-                activeClass={style.active}
-                to=""
+                to="Home"
                 spy={true}
                 smooth={true}
                 duration={500}
@@ -19,6 +18,7 @@ function Nav() {
                 spy={true}
                 smooth={true}
                 duration={500}
+                offset={-60}
             >Skills</Link>
             <Link
                 activeClass={style.active}
@@ -26,6 +26,7 @@ function Nav() {
                 spy={true}
                 smooth={true}
                 duration={500}
+                offset={-60}
             >Projects</Link>
             <Link
                 activeClass={style.active}
@@ -33,6 +34,7 @@ function Nav() {
                 spy={true}
                 smooth={true}
                 duration={500}
+                offset={-60}
             >Contact</Link>
         </div>
     );

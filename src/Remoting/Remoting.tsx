@@ -1,7 +1,6 @@
 import React from 'react'
 import style from './Remoting.module.scss'
 import styleContainer from "../Common/styles/Container.module.scss";
-import {PreviewButton} from "../Common/PreviewButton/PreviewButton";
 
 
 const Remoting = () => {
@@ -12,10 +11,6 @@ const Remoting = () => {
                     <div className={style.remoteTitle}>
                         <h2>I am available for Freelancer</h2>
                     </div>
-                    <div className={style.remoteBtn}>
-                        <PreviewButton link={''} name={'Watching'}/>
-                    </div>
-
                 </div>
             </div>
         </div>

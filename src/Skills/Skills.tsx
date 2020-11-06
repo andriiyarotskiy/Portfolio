@@ -22,11 +22,8 @@ const Skills = () => {
     })
 
     return (
-        <div className={style.skillsBlock} id="Skills">
-
-
+        <div  id="Skills" className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-
                 <Fade big>
                     <h2 className={style.title}>Skills</h2>
                     <div className={style.skills}>
