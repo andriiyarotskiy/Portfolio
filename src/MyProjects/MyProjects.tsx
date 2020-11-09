@@ -36,13 +36,13 @@ export default MyProjects;
 
 const projectsElements = [
     {
-        link: "https://andriiyarotskiy.github.io/SN-TypeScript/",
+        link: "https://andriiyarotskiy.github.io/SN-TypeScript/#/",
         image: {
             backgroundImage: 'url(' + snImage + ')',
         },
         title: 'social network',
     }, {
-        link: "https://andriiyarotskiy.github.io/TodoList-tsx/",
+        link: "https://andriiyarotskiy.github.io/TodoList-tsx/#/",
         image: {
             backgroundImage: 'url(' + todoImage + ')',
         },

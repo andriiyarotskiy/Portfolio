@@ -1,3 +1,5 @@
+@import "../assets/variables/variables";
+
 .contactContainer {
   padding: 50px 0;
   background: url("../assets/image/freedom.jpg") center no-repeat;
@@ -40,14 +42,15 @@
 
   .formGroup {
     width: 100%;
+    position: relative;
   }
 }
 
 input.formControl {
-  height: 30px;
+  height: 40px;
   padding: 0 15px;
-  margin: 0 auto 15px;
-  background: #000;
+  margin: 0 auto 30px;
+  background: $bgFooter;
   color: #fff;
   outline: none;
   font-family: 'Raleway-Regular', sans-serif;
@@ -56,10 +59,11 @@ input.formControl {
 textarea.formControl {
   height: 150px;
   padding: 15px;
-  background: #000;
+  background: $bgFooter;
   color: #fff;
   font-family: 'Raleway-Regular', sans-serif;
   outline: none;
+  margin-bottom: 30px ;
 }
 
 .formControl {
@@ -72,11 +76,56 @@ textarea.formControl {
 
 .contactBtn {
   padding-top: 50px;
+
 }
+
+// Зануление autofill
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 0;
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+  caret-color: white; // цвет курсора autofill
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,174,255,0.04) 50%,rgba(255,255,255,0) 51%,rgba(0,174,255,0.03) 100%);
+}
+// Зануление autofill
+
+
+// INPUT ERROR STYLE
+.error {
+  font-family: 'Raleway-Regular', sans-serif;
+  font-weight: 600;
+  position: absolute;
+  color: $errorColor;
+  bottom: 5px;
+  left: 15px;
+}
+// INPUT ERROR STYLE
+
+.statusMessage {
+  height: 44px;
+  display: block;
+  font-size: 20px;
+  font-family: "Oswald-Regular", sans-serif;
+}
+
 
 @media (max-width: 576px) {
   .contactForm {
     width: 100%;
+  }
+  .statusMessage {
+    font-size: 15px;
   }
 }
 

@@ -34,7 +34,7 @@ body {
     line-height: 1.5;
     font-style: normal;
     color: #fff;
-    background: #0e0f10;
+    /*background: #0e0f10;*/
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

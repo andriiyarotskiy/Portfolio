@@ -28,3 +28,10 @@
         background: rgba(38, 172, 202, .9);
     }
 }
+.disabled {
+    background-color: #191a1b;
+    cursor: initial;
+    &:hover {
+        background: #191a1b;
+    }
+}

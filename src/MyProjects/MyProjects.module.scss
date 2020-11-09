@@ -1,7 +1,10 @@
+@import "../assets/variables/variables";
+
 .projectsBlock {
   min-height: 100vh;
   padding: 50px 0;
   position: relative;
+  background-color: $bgProjects;
 }
 .particles {
   position: absolute;
