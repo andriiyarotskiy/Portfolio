@@ -9,7 +9,7 @@ const Remoting = () => {
             <div className={style.remoteContainer}>
                 <div className={`${styleContainer.container} ${style.remote}`}>
                     <div className={style.remoteTitle}>
-                        <h2>I am available for Freelancer</h2>
+                        <h2>I am available for Freelance</h2>
                     </div>
                 </div>
             </div>
