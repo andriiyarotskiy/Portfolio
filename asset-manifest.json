@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.23386e24.chunk.css",
-    "main.js": "/Portfolio/static/js/main.c289a27e.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.c289a27e.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.d37f4420.chunk.css",
+    "main.js": "/Portfolio/static/js/main.1c24eafd.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.1c24eafd.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
-    "static/js/2.f7fdd263.chunk.js": "/Portfolio/static/js/2.f7fdd263.chunk.js",
-    "static/js/2.f7fdd263.chunk.js.map": "/Portfolio/static/js/2.f7fdd263.chunk.js.map",
+    "static/js/2.59f5be3b.chunk.js": "/Portfolio/static/js/2.59f5be3b.chunk.js",
+    "static/js/2.59f5be3b.chunk.js.map": "/Portfolio/static/js/2.59f5be3b.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.8a244936c1fde8b261379d64edd7fe98.js": "/Portfolio/precache-manifest.8a244936c1fde8b261379d64edd7fe98.js",
+    "precache-manifest.028a00b302c8b6a1445f807f69f2fd0c.js": "/Portfolio/precache-manifest.028a00b302c8b6a1445f807f69f2fd0c.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.23386e24.chunk.css.map": "/Portfolio/static/css/main.23386e24.chunk.css.map",
-    "static/js/2.f7fdd263.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.f7fdd263.chunk.js.LICENSE.txt",
+    "static/css/main.d37f4420.chunk.css.map": "/Portfolio/static/css/main.d37f4420.chunk.css.map",
+    "static/js/2.59f5be3b.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.59f5be3b.chunk.js.LICENSE.txt",
     "static/media/Andriy.jpg": "/Portfolio/static/media/Andriy.431e95fe.jpg",
     "static/media/index.css": "/Portfolio/static/media/Raleway-Regular.75b4247f.ttf",
     "static/media/Main.module.scss": "/Portfolio/static/media/airPlaneBGimage.a39bb439.jpg",
@@ -19,7 +19,6 @@
     "static/media/common_Components.jpg": "/Portfolio/static/media/common_Components.fb3f47b3.jpg",
     "static/media/count_img.jpg": "/Portfolio/static/media/count_img.0b6729d0.jpg",
     "static/media/facebook.svg": "/Portfolio/static/media/facebook.c1e76960.svg",
-    "static/media/Contact.module.scss": "/Portfolio/static/media/freedom.dd3f57e8.jpg",
     "static/media/github.svg": "/Portfolio/static/media/github.bb69c970.svg",
     "static/media/html5_icon.svg": "/Portfolio/static/media/html5_icon.ea5191d6.svg",
     "static/media/jest_icon.svg": "/Portfolio/static/media/jest_icon.3afabc3c.svg",
@@ -34,13 +33,12 @@
     "static/media/telegram.svg": "/Portfolio/static/media/telegram.d76d798a.svg",
     "static/media/todolist_img.svg": "/Portfolio/static/media/todolist_img.2a8153ef.svg",
     "static/media/ts2_icon.svg": "/Portfolio/static/media/ts2_icon.cb1b81a9.svg",
-    "static/media/userAuth.jpg": "/Portfolio/static/media/userAuth.cbc56ead.jpg",
-    "static/media/Remoting.module.scss": "/Portfolio/static/media/worldMap.d3581196.svg"
+    "static/media/userAuth.jpg": "/Portfolio/static/media/userAuth.cbc56ead.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.e440ee5a.js",
-    "static/js/2.f7fdd263.chunk.js",
-    "static/css/main.23386e24.chunk.css",
-    "static/js/main.c289a27e.chunk.js"
+    "static/js/2.59f5be3b.chunk.js",
+    "static/css/main.d37f4420.chunk.css",
+    "static/js/main.1c24eafd.chunk.js"
   ]
 }
