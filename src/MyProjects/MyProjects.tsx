@@ -2,9 +2,9 @@ import React from 'react';
 import style from './MyProjects.module.scss';
 import styleContainer from '../Common/styles/Container.module.scss';
 import Project from './Project/Project';
-import todoImage from '../assets/image/todolist_img.svg'
-import snImage from '../assets/image/sn_img.png'
-import countImage from '../assets/image/count_img.jpg'
+import todoImage from '../assets/image/projects-img/todolist_img.svg'
+import snImage from '../assets/image/projects-img/sn_img.png'
+import countImage from '../assets/image/projects-img/count_img.jpg'
 import Particles from "react-particles-js";
 import {paramsBubble} from "./bubleOptions";
 

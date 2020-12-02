@@ -1,3 +1,6 @@
+.btn {
+    position: relative;
+}
 .previewBtn {
     display: block;
     width: 180px;
@@ -33,5 +36,16 @@
     cursor: initial;
     &:hover {
         background: #191a1b;
+    }
+}
+.btnLoader{
+    position: absolute;
+    //background-color: #e63946;
+    width: 30px;
+    height: 30px;
+    top: 7px;
+    right: 1px;
+    img {
+        width: 100%;
     }
 }
