@@ -5,6 +5,9 @@ import Project from './Project/Project';
 import todoImage from '../assets/image/projects-img/todolist_img.svg'
 import snImage from '../assets/image/projects-img/sn_img.png'
 import countImage from '../assets/image/projects-img/count_img.jpg'
+import commonComponents from '../assets/image/projects-img/common_Components.jpg'
+import userAuth from '../assets/image/projects-img/userAuth.jpg'
+import miniShop from '../assets/image/projects-img/miniShop.png'
 import Particles from "react-particles-js";
 import {paramsBubble} from "./bubleOptions";
 
@@ -53,5 +56,23 @@ const projectsElements = [
             backgroundImage: 'url(' + countImage + ')',
         },
         title: 'count',
+    }, {
+        link: "https://github.com/andriiyarotskiy/common_components",
+        image: {
+            backgroundImage: 'url(' + commonComponents + ')',
+        },
+        title: 'common components',
+    }, {
+        link: "https://andriiyarotskiy.github.io/cards/#/",
+        image: {
+            backgroundImage: 'url(' + userAuth + ')',
+        },
+        title: 'Sign in / Sign up / Forgot',
+    },{
+        link: "https://andriiyarotskiy.github.io/mini-shop/#/",
+        image: {
+            backgroundImage: 'url(' + miniShop + ')',
+        },
+        title: 'mini app shop',
     },
 ]
