@@ -4,7 +4,6 @@ import './normalize.css'
 import Main from "./Main/Main";
 import Skills from "./Skills/Skills";
 import MyProjects from "./MyProjects/MyProjects";
-import Footer from './Footer/Footer';
 import Header from "./Main/Header/Header";
 import style from "./Main/Main.module.scss";
 
@@ -18,7 +17,6 @@ function App() {
             </div>
             <Skills/>
             <MyProjects/>
-            <Footer/>
         </div>
     );
 }

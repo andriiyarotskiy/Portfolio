@@ -28,14 +28,6 @@ function Nav() {
                 duration={500}
                 offset={-60}
             >Projects</Link>
-            <Link
-                activeClass={style.active}
-                to="Footer"
-                spy={true}
-                smooth={true}
-                duration={500}
-                offset={-60}
-            >Contact</Link>
         </div>
     );
 }
