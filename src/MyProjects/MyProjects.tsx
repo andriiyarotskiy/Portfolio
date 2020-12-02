@@ -55,13 +55,13 @@ const projectsElements = [
         },
         title: 'count',
     }, {
-        link: "https://github.com/andriiyarotskiy/common_components/#/",
+        link: "https://github.com/andriiyarotskiy/common_components",
         image: {
             backgroundImage: 'url(' + commonComponents + ')',
         },
         title: 'common components',
     }, {
-        link: "https://andriiyarotskiy.github.io/cards/#/",
+        link: "https://andriiyarotskiy.github.io/cards",
         image: {
             backgroundImage: 'url(' + userAuth + ')',
         },
