@@ -30,7 +30,7 @@ function Nav() {
             >Projects</Link>
             <Link
                 activeClass={style.active}
-                to="Contact"
+                to="Footer"
                 spy={true}
                 smooth={true}
                 duration={500}

@@ -63,7 +63,7 @@ const projectsElements = [
         },
         title: 'common components',
     }, {
-        link: "https://andriiyarotskiy.github.io/cards/#/",
+        link: "https://andriiyarotskiy.github.io/common_components/#/",
         image: {
             backgroundImage: 'url(' + userAuth + ')',
         },
