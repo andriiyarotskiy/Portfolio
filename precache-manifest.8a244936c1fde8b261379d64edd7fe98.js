@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "88738c324e7d5f35a509158b3cd76b41",
+    "revision": "f5899f1b0b78ca15642810d10e1be49a",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "052722227c1888b79b96",
-    "url": "/Portfolio/static/css/main.44e6f921.chunk.css"
+    "revision": "5437c52a4095956f0e3c",
+    "url": "/Portfolio/static/css/main.23386e24.chunk.css"
   },
   {
-    "revision": "d6cdfeaf42a3693f10c2",
-    "url": "/Portfolio/static/js/2.02af4474.chunk.js"
+    "revision": "81969c039e85d4b2c215",
+    "url": "/Portfolio/static/js/2.f7fdd263.chunk.js"
   },
   {
     "revision": "fa983d308872089c2051d5ad84ad0fc8",
-    "url": "/Portfolio/static/js/2.02af4474.chunk.js.LICENSE.txt"
+    "url": "/Portfolio/static/js/2.f7fdd263.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "052722227c1888b79b96",
-    "url": "/Portfolio/static/js/main.79a22659.chunk.js"
+    "revision": "5437c52a4095956f0e3c",
+    "url": "/Portfolio/static/js/main.c289a27e.chunk.js"
   },
   {
     "revision": "b83a37198ba343383876",
@@ -60,6 +60,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/axios_icon.3dd7b124.svg"
   },
   {
+    "revision": "fb3f47b3655072b7888518b4d509face",
+    "url": "/Portfolio/static/media/common_Components.fb3f47b3.jpg"
+  },
+  {
     "revision": "0b6729d0cbc78ce87746cc739a674a84",
     "url": "/Portfolio/static/media/count_img.0b6729d0.jpg"
   },
@@ -92,6 +96,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/linkedin.4e1d56fc.svg"
   },
   {
+    "revision": "5c473c0c805ce15cdb2d32f135609e96",
+    "url": "/Portfolio/static/media/loading.5c473c0c.svg"
+  },
+  {
     "revision": "9c62aba8285bcdab8197a31d213eeec7",
     "url": "/Portfolio/static/media/react_icon.9c62aba8.svg"
   },
@@ -122,6 +130,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cb1b81a96bfe2301353f8de773202209",
     "url": "/Portfolio/static/media/ts2_icon.cb1b81a9.svg"
+  },
+  {
+    "revision": "cbc56eadd6d8fe194ba0d9e6b5cecb90",
+    "url": "/Portfolio/static/media/userAuth.cbc56ead.jpg"
   },
   {
     "revision": "d3581196116972c031c2f478d2432300",
