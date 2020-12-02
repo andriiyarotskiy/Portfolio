@@ -19,18 +19,16 @@ function MyProjects() {
         return <Project key={i} style={el.image} title={el.title} link={el.link}/>
     })
     return (
-        <Fade>
-            <div id="Projects" className={style.projectsBlock}>
-                <Particles className={style.particles} params={paramsBubble}/>
+        <div id="Projects" className={style.projectsBlock}>
+            <Particles className={style.particles} params={paramsBubble}/>
 
-                <div className={`${styleContainer.container} ${style.projectsContainer}`}>
-                    <h2 className={style.title}>Projects</h2>
-                    <div className={style.projects}>
-                        {projectElement}
-                    </div>
+            <div className={`${styleContainer.container} ${style.projectsContainer}`}>
+                <h2 className={style.title}>Projects</h2>
+                <div className={style.projects}>
+                    {projectElement}
                 </div>
             </div>
-        </Fade>
+        </div>
     );
 }
 
@@ -68,7 +66,7 @@ const projectsElements = [
             backgroundImage: 'url(' + userAuth + ')',
         },
         title: 'Sign in / Sign up / Forgot',
-    },{
+    }, {
         link: "https://andriiyarotskiy.github.io/mini-shop/#/",
         image: {
             backgroundImage: 'url(' + miniShop + ')',
