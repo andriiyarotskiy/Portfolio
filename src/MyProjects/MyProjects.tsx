@@ -55,7 +55,7 @@ const projectsElements = [
         },
         title: 'count',
     }, {
-        link: "https://github.com/andriiyarotskiy/common_components",
+        link: "https://andriiyarotskiy.github.io/common_components/#/",
         image: {
             backgroundImage: 'url(' + commonComponents + ')',
         },
