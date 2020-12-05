@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d36ba841f0311c3366690591bb5ee697",
+    "revision": "edf81564a85207a2afa565a3bfceab39",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "6dd273c6123ec83f2e7a",
-    "url": "/Portfolio/static/css/main.f237ec4d.chunk.css"
+    "revision": "956e786313db8db50bf7",
+    "url": "/Portfolio/static/css/main.d36531fc.chunk.css"
   },
   {
     "revision": "f30ec6baf5c5703521a7",
@@ -16,16 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.c5987285.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6dd273c6123ec83f2e7a",
-    "url": "/Portfolio/static/js/main.35222be3.chunk.js"
+    "revision": "956e786313db8db50bf7",
+    "url": "/Portfolio/static/js/main.e2a6d639.chunk.js"
   },
   {
     "revision": "b83a37198ba343383876",
     "url": "/Portfolio/static/js/runtime-main.e440ee5a.js"
-  },
-  {
-    "revision": "431e95fe64363f19dcaa2dc115aae1ae",
-    "url": "/Portfolio/static/media/Andriy.431e95fe.jpg"
   },
   {
     "revision": "e991dea9f65ce799dd72095ab7ad6e88",
@@ -54,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a39bb43916e0e3182342841737ff15df",
     "url": "/Portfolio/static/media/airPlaneBGimage.a39bb439.jpg"
+  },
+  {
+    "revision": "14849ab553ad1039a6a204da0c4608bc",
+    "url": "/Portfolio/static/media/avatar.14849ab5.png"
   },
   {
     "revision": "3dd7b124b0c1be575623b8419fb24c10",
