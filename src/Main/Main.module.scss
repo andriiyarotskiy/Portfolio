@@ -30,13 +30,14 @@
       justify-content: space-between;
       width: 100%;
       height: 100%;
-      align-items: center;
+      align-items: flex-end;
     }
   }
 }
 
 .text {
   max-width: 350px;
+  margin: auto 0;
 
   span {
     display: block;
@@ -82,12 +83,14 @@
 
 .photo {
   display: block;
-  height: 346px;
+  height: auto;
   text-align: right; // avatar to right
   .responsiveImg {
     max-width: 100%;
-    width: 300px;
+    width: 400px;
     height: 100%;
+    margin-bottom: -5px;
+    filter: saturate(0.6);
   }
 }
 
@@ -95,7 +98,8 @@
 
   .mainWrapper .main .mainContent {
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
   }
   .text {
     max-width: 300px;
@@ -108,5 +112,8 @@
     .speciality {
       font-size: 20px;
     }
+  }
+  .photo .responsiveImg {
+    width: 250px;
   }
 }

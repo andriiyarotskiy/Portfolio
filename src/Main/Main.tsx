@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Main.module.scss'
 import styleContainer from '../Common/styles/Container.module.scss'
-import avatar from "../assets/image/Andriy.jpg"
+import avatar from "../assets/image/avatar.png"
 import ReactTypingEffect from "react-typing-effect";
 import Tilt from 'react-parallax-tilt';
 
