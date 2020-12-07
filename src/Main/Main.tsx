@@ -3,7 +3,6 @@ import style from './Main.module.scss'
 import styleContainer from '../Common/styles/Container.module.scss'
 import avatar from "../assets/image/avatar.png"
 import ReactTypingEffect from "react-typing-effect";
-import Tilt from 'react-parallax-tilt';
 
 const Fade = require('react-reveal/Fade')
 
@@ -23,13 +22,11 @@ function Main() {
                             eraseDelay={15000}
                             text={["Front-end Developer!"]}/>
                     </div>
-                    <Tilt>
                         <div className={style.photo}>
                             <img src={avatar}
                                  className={style.responsiveImg}
                                  alt="avatar"/>
                         </div>
-                    </Tilt>
                 </div>
             </div>
          </Fade>
