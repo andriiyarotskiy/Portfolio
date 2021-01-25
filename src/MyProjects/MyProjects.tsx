@@ -5,7 +5,7 @@ import Project from './Project/Project';
 import todoImage from '../assets/image/projects-img/todolist_img.svg'
 import snImage from '../assets/image/projects-img/sn_img.png'
 import countImage from '../assets/image/projects-img/count_img.jpg'
-import commonComponents from '../assets/image/projects-img/common_Components.jpg'
+import expressImage from '../assets/image/projects-img/develop-node-js-server.png'
 import userAuth from '../assets/image/projects-img/userAuth.jpg'
 import miniShop from '../assets/image/projects-img/miniShop.png'
 import Particles from "react-particles-js";
@@ -55,11 +55,11 @@ const projectsElements = [
         },
         title: 'count',
     }, {
-        link: "https://andriiyarotskiy.github.io/Commons/#/",
+        link: "https://infinite-shelf-52438.herokuapp.com/",
         image: {
-            backgroundImage: 'url(' + commonComponents + ')',
+            backgroundImage: 'url(' + expressImage + ')',
         },
-        title: 'common components',
+        title: 'Node.js/Express Store',
     }, {
         link: "https://andriiyarotskiy.github.io/cards",
         image: {
