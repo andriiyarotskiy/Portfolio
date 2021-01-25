@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b7dad36d1e53272cfc63e0cb1799c8d",
+    "revision": "c41931a972572c1c200b8f704fc2bed8",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "1f0cb96815deca8b0261",
+    "revision": "2f9f332600f5298cc0f7",
     "url": "/Portfolio/static/css/main.4809bbc7.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/js/2.d87f5761.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1f0cb96815deca8b0261",
-    "url": "/Portfolio/static/js/main.908fd533.chunk.js"
+    "revision": "2f9f332600f5298cc0f7",
+    "url": "/Portfolio/static/js/main.71ed21a3.chunk.js"
   },
   {
     "revision": "b83a37198ba343383876",
@@ -58,10 +58,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3dd7b124b0c1be575623b8419fb24c10",
     "url": "/Portfolio/static/media/axios_icon.3dd7b124.svg"
-  },
-  {
-    "revision": "fb3f47b3655072b7888518b4d509face",
-    "url": "/Portfolio/static/media/common_Components.fb3f47b3.jpg"
   },
   {
     "revision": "0b6729d0cbc78ce87746cc739a674a84",
